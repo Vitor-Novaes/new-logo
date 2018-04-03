@@ -10,6 +10,7 @@ html { font-size: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	text-rendering: optimizelegibility;
+	overflow-x: hidden;
 }
 body {
 	color:#888089;
@@ -106,6 +107,11 @@ h5{
 	font-weight:400;
 	margin:0px;
 }
+
+.container-fluid{
+	width: 100%;
+}
+
 .wrapper .media {
 	margin-top:0;
 }
@@ -221,6 +227,7 @@ header{
     right: 0;
     top: 0;
     z-index: 9999;
+	margin: auto;
 }
 .logo{
 	float:left;
@@ -1180,7 +1187,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 400px) {
 	.navbar-wrapper .container,
 	.navwrapper .container{
 		width:100%;

@@ -32,45 +32,43 @@
 
 <!--Header start -->
 <header>
-  	<!--menu start-->
-    <div class="menu">
-    <a href="#" class="nav-icon" id="nav-show"><i class="fa fa-bars"></i></a>
-      <div class="navbar-wrapper">
-        <div class="container">
-          <div class="navwrapper">
-            <div class="navbar navbar-inverse navbar-static-top">
-              <div class="container">
-              	<!--<div class="logo">logo</div> -->
-                <div class="navArea"><a href="#" class="closeMenu"><i class="fa fa-times"></i></a>
-                    <div class="navbar-header">
-                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                     <!-- <a class="navbar-brand" href="#">Menu</a>  --></div>
-                    <div class="navbar-collapse collapse">
-                      <ul class="nav navbar-nav">
-                        <li class="menuItem active"><a href="http://www.acensjr.com/" target="_blank">Acens</a></li>
-                        <li class="menuItem"><a href="https://www.facebook.com/petcompoficial/" target="_blank">PET computação</a></li>
-                        <li class="menuItem"><a href="http://www.secomp.uece.br/" target="_blank">Secomp 2018</a></li>
-                        <li class="menuItem"><a href="http://www.acensjr.com/articles" target="_blank">Blog</a></li>
-                        <li class="menuItem"><a href="http://www.acensjr.com/#contact-section" target="_blank">Contato</a></li>
-                        <!-- <li class="menuItem"><a href="#ourwork">Portfolio</a></li>
-                        <li class="menuItem"><a href="#contact">Contact</a></li> -->
-                      </ul>
-                    </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End Navbar -->
-        </div>
-      </div>
-    </div>
+
+	<!--menu start-->
+  <div class="menu">
+  <a href="#" class="nav-icon" id="nav-show"><i class="fa fa-bars"></i></a>
+	<div class="navbar-wrapper">
+	  <div class="container">
+		<div class="navwrapper">
+		  <div class="navbar navbar-inverse navbar-static-top">
+			<div class="container">
+				<div class="logo">logo</div>
+			  	<div class="navArea"><a href="#" class="closeMenu"><i class="fa fa-times"></i></a></div>
+
+					<ul class="col-sm-auto nav navbar-nav">
+					  <li class="menuItem active"><a href="http://www.acensjr.com/" target="_blank">Acens</a></li>
+					  <li class="menuItem"><a href="https://www.facebook.com/petcompoficial/" target="_blank">PET computação</a></li>
+					  <li class="menuItem"><a href="http://www.secomp.uece.br/" target="_blank">Secomp 2018</a></li>
+					  <li class="menuItem"><a href="http://www.acensjr.com/articles" target="_blank">Blog</a></li>
+					  <li class="menuItem"><a href="http://www.acensjr.com/#contact-section" target="_blank">Contato</a></li>
+					  <!-- <li class="menuItem"><a href="#ourwork">Portfolio</a></li>
+					  <li class="menuItem"><a href="#contact">Contact</a></li> -->
+					</ul>
+				  </div>
+			   </div>
+			</div>
+		  </div>
+		</div>
+		<!-- End Navbar -->
+	  </div>
+	</div>
+  </div>
     <!--menu end-->
 
 
     <!--banner start-->
     <div class="banner row" id="banner">
     <div class="bannerText">
-        <h1> Faltam </br><span id="contador"></span>
+        <h1><span id="contador"></span>
 			<!-- <span id="contador"></br>
 			<span id="contador"></br> -->
 		</h1>
@@ -223,7 +221,7 @@ faltam += ss+'s';
         document.getElementById('contador').innerHTML = faltam;
         setTimeout(atualizaContador,1000);
     }else{
-        document.getElementById('contador').innerHTML = 'CHEGOU!!!!';
+        document.getElementById('contador').innerHTML = ' (-) ';
         setTimeout(atualizaContador,1000);
     }
 }
