@@ -245,7 +245,8 @@ header{
 	width:auto;
 }
 .navArea {
-	position:relative;
+	position:absolute;
+	left: 0;
 }
 .navbar.navbar-inverse.navbar-static-top a.closeMenu {
 	width:32px;
